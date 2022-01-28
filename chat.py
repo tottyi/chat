@@ -108,7 +108,7 @@ class Login:
         label = Label(canvas, text='User : ' + self.login )
         label.place(x=40, y=50)
         user = self.login
-        userSelected.remove(user)  # EZT MEG KELL OLDANI VALAHOGY< HOGY JO LEGYEN ES MUKODJON
+        userSelected.remove(user)
         button_hide()
         user_select()
         chat_enter()
